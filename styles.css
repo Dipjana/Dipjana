@@ -1,0 +1,160 @@
+/* SCC Reset  */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 4000px;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Navigation ber container */
+.container{
+    /* border: 2px solid red; */
+  margin: auto;
+    display: flex;
+    align-items: center;
+    /* position: sticky; */
+    top: 0px;
+    
+}
+
+.container::before{
+    content: "";
+    background-color:white;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+
+}
+/* logo and img  */
+ .logo{
+     margin: 34px 23px;
+     opacity: 0.89;
+  
+ }    
+
+ /* Navigation ber  */
+ /* .header-text{
+     border: 2px solid red;    
+ } */
+.navber{
+display:flex;
+margin-left: 200px;
+
+
+}
+.navber li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+.navber li a{
+    color:rgb(43, 36, 30);
+    display: block;
+    padding: 12px 32px;
+    margin: 7px 4px;
+    text-decoration: transparent;
+    font-family: 'Inconsolata', monospace;
+    font-size:19px;
+}
+.navber li a:hover{
+    background-color:rgb(247, 156, 140);
+    color:rgb(253, 61, 28);
+}
+#login{
+    background-color:rgb(132, 130, 240) ;
+    color: white;
+}
+/* home section  */
+#home{
+    /* border: 2px solid green; */
+    display:flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    background:url(img/home.jpg) no-repeat center center/cover;
+    position: absolute;
+    margin-top: 200px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+/* Utility Classes  */
+.h-primary{
+       padding-right: 600px;
+    margin-right: 79px;
+    opacity: 1.8;
+    font-family: "Source Sans Pro",Helvetica,Arial,sans-serif
+    
+}
+#home-text-1{
+    font-size: 4rem;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    color:white;
+    opacity: 2;
+}
+#home-text-2{
+    font-size: 2rem;
+    opacity: 2;
+    color: white;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+}
+#home-text-3{
+    opacity: 2;
+    font-size:1.6rem;
+    color: white;
+    font-family: 'Caveat', cursive;
+
+}
+ 
+/* about section  */
+
+#About{
+    text-align: center;
+    /* border: 2px solid rgb(68, 17, 187); */
+    padding-top:50px;
+ margin-top:220px;
+}
+#about-text-1{
+    font-size: 4rem;
+    color: rgb(82, 16, 16);
+    /* display:flex; */
+    /* flex-direction: column; */
+    /* padding:3px 200px; */
+    /* height: 400px; */
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+#about-text-2 a{
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+}
+#about-text-2{
+    margin-top: 14px;
+    font-size: 4rem;
+    color: rgb(111, 197, 25);
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+#about-text-3{
+   color: rgb(10, 4, 4);
+    font-size: 1.3rem;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+/* product section */
